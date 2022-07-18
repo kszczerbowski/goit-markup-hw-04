@@ -405,7 +405,12 @@ a[href="mailto:info@example.com"] {
 
 .box-headline {
     padding: 200px 252px 200px 252px;
-    background-image: url(../images/background-photo.jpg), url(../images/background-photo-overlay.jpg);
+    background-image: url(../images/background-photo.jpg), 
+    linear-gradient(
+    to right,
+    #2F303A66,
+    #2F303A66
+    );
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: 1600px;
