@@ -263,12 +263,13 @@ footer a span {
     font-weight: 400;
 }
 
-li > figure:hover,
-li > figure:focus {
+.portfolio-element > figure:hover,
+.portfolio-element > figure:focus {
     box-shadow: 1px 4px 6px 0px #00000029,
     0px 4px 4px 0px #0000000F,
     0px 1px 1px 0px #0000001F;
     ;
+    cursor: pointer;
 }
 
 /* KONIEC: USTAWIENIA DLA BODY PORTFOLIO, BEZ FLEXBOXÓW */
@@ -375,6 +376,7 @@ footer .footer {
 .social-circle-footer:focus {
     background-color: var(--color-active);
     fill: var(--color-join-us);
+    cursor: pointer;
 }
 
 .social-list-footer {
@@ -527,6 +529,7 @@ padding-bottom: 50px;
 .social-circle:focus {
     background-color: var(--color-active);
     fill: var(--color-team-members-background);
+    cursor: pointer;
 }
 
 .social-list {
@@ -559,6 +562,7 @@ padding-bottom: 50px;
 .client-background:focus {
     fill: var(--color-active);
     border: solid var(--color-active) 1px;
+    cursor: pointer;
 }
 
 .list-our-clients {
