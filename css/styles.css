@@ -291,7 +291,7 @@ h1, h2, h3, h4, h5, h6, p, ul, figure {
     padding-bottom: 94px;
 }
 
-.portf-header {
+header {
     border-bottom: solid var(--color-header-border) 1px;
 }
 
